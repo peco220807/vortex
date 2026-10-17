@@ -1,0 +1,20 @@
+# датасет и производные — НЕ коммитить (данные только в рамках хакатона)
+data/videos/
+data/frames_around/
+data/clips/
+preds/
+*.mov
+*.mp4
+# веса моделей
+weights/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
